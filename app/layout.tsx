@@ -1,3 +1,5 @@
+// Next.js processes this stylesheet at build time; no TypeScript module declaration is needed.
+// @ts-ignore -- globals.css is a side-effect import handled by Next.js.
 import "./globals.css";
 
 export const metadata = {
