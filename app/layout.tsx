@@ -5,9 +5,7 @@ export const metadata = {
   description: "Administrar Búho Electronics",
 };
 
-export default function RootLayout({children,}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="es">
       <body style={{ display: "flex", background: "#111", color: "#fff" }}>
