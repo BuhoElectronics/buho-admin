@@ -25,7 +25,8 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.112.3",
+    "@supabase/ssr": "^0.12.5",
+    "@supabase/supabase-js": "^2.112.4",
     "@vercel/otel": "^2.0.1",
     "next": "15.5.9",
     "react": "19.1.0",
